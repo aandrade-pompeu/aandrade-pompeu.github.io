@@ -23,8 +23,40 @@ text significa que va més enlla del text, imatges, videos, enllaços, gifs, sti
   <!-- La línia anterior fa que sigui posible crear un menú desplegable amb bootstrap i que les línies de las línies 28 a
   la 77-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <!-- Les pàgines web que comenen amb "CDN" Content Delivery Network són molt important en informatica i en codi perquè fan 
+  possible incloure en el nostre codi una biblioteca. En aquest cas la biblioteca és del tipus CSS
+  "Cascade Style Sheet" que significa= Fulls d'estils en cascada. Ho sabem perquè acaba en .CSS.
+  CSS és un llenguatge de programació diferent a HTML. Amb CSS podem canviar l'estil de la web
+  per exemple tipus de lletre, marges, la mida de la lletra, els colors, etc. En canvi, amb HTML
+  programem només l'esquelet o l'estructura bàsica que uneix tot. Per últim existeix el javascrips
+  que permet el comportament interactiu i els canvis. LA suma de HTML+CSS+javascript, permet fer qualsevol web.
+   Els videojocs tindran molt Javascript. Per exemple: si nosaltres fosim una pàgina web 
+  seriem: l'escelet= HTML, després CSS= la nostra carn i la roba i el javascript ens permetiria
+  respirar, moure, estudiar, etc. En una casa seria HTML=les bigues i les parets, l'estil seria les pintures de les parets, i
+  el javascript seria l'alarma, el timbre, els llums, o el rec automàtic-->
   <style>
+    /*  La etiqueta de dalt significa que canviem de llenguatge i ara escrivim en CSS. Ara els comentaris
+    es posen amb un asterics i una barra inclinada a diferència dels comentaris del HTML que es posava
+    menor que signe d'admiració <!-- -->. Si porta asterisc barra és un comentari multilínia
+    i si porta dos barras inclinadas a l'inici és un comentari d'una lìnia per javascript*/
+    /* L'estrucutra del CSS no té menor ni major que . Sempre té l'estrucutra 
+    etiqueta {
+    propietat1: valor1
+    propietat2: valor2
+    }
     
+    Exemples: 
+    En el codi HTML jo he escrit un títol: <h1> Estudiem el plàtan</h1>
+    H1 és una etiqueta de HTMl que permet fer títols més grans, h1 faria títol més fins h6 molt petit.
+    En el codi CSS ekl que fem es modificar el HTML, si vull modificar el títol h1 he d'escriure:
+    "h1{
+    color:pink;
+    font-size:33px;
+    font-family: sans-serif;
+    }
+    Amb això hem aconseguit canviar l'estil de titol, concretament el color ara és rosa, abans era negra,
+    la mida és 33px pixels i el tipus de lletra és sans-serif*/
+    /*  Només hi ha tres tipus de families de lletres: serif, sense-serif i monospace*/
     /* 1. Submenús en mode fosc */
     body[data-bs-theme="dark"] .dropdown-menu {
       background-color: #2c2c2c !important;
